@@ -1,5 +1,5 @@
 let button = document.getElementById('button');
 
-onclick = function() {
+button.onclick = function() {
     alert("Klik działa!");
 }
